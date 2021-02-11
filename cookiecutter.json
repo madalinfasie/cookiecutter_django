@@ -1,0 +1,17 @@
+{
+    "project_name": "sample_django_project",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "main_app": "mainapp",
+    "website_author": "Madalin Fasie",
+    "website_title": "Sample Django Project with Cookiecutter",
+    "website_description": "A sample general purpose django project generated using cookiecutter",
+    "custom_css_name": "custom_styles.css",
+    "include_jquery": "n",
+    "include_font_awesome": "n",
+    "include_google_fonts": "n",
+    "framework": [
+        "none",
+        "bootstrap",
+        "mdbootstrap"
+    ]
+}
